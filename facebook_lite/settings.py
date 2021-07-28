@@ -141,7 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 django_heroku.settings(locals())
 
 MEDIA_URL = '/media/'
-MEDIA_ROOR = Path.joinpath(BASE_DIR, 'media')
+MEDIA_ROOT = Path.joinpath(BASE_DIR, 'media')
 
 cloudinary.config(
     cloud_name = config('CLOUDINARY_CLOUD_NAME'),
